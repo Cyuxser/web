@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ddd;
+  color: #24292e;
+  padding: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+header .logo img {
+  height: 40px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #24292e;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header .user-controls button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+header .login-btn {
+  background-color: #0366d6;
+  color: white;
+}
+
+header .signup-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+}
+
+.enter {
+  margin-bottom: 15px;
+}
+
+.wrapper {
+  position: absolute;
+  background: url(https://wallpaperaccess.com/full/196855.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-roblox {
+  width: 600px;
+  padding-top: 190px;
+  padding-left: 150px;
+}
+
+.contact {
+  z-index: 2;
+}
+
+.contact h2 {
+  color: black;
+  font-size: 20px;
+}
+
+.wrapper-contact {
+  line-height: 2.0em;
+  position: absolute;
+  text-align: center;
+  height: 500px;
+  width: 400px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  z-index: 1;
+  bottom: 20%;
+  right: 9%;
+}
+
+.information {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+  border: 1px solid black;
+}
+
+.submit {
+  background-color: #28a745;
+  font-size: 20px;
+  font-weight: 800;
+  width: 310px;
+  height: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.day {
+  font-size: 20px;
+  font-weight: 800;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  cursor: pointer;
+}
+
+.gender {
+  text-align: center;
+  font-size: 10px;
+  font-weight: 800;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.submit:hover {
+  opacity: 0.6;
+}
+
+#strong {
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+#strong:hover {
+  box-shadow: 0 1px #0366d6;
+}

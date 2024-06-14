@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ddd;
+    color: #24292e;
+    padding: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #24292e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .user-controls button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+header .login-btn {
+    background-color: #0366d6;
+    color: white;
+}
+
+header .signup-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+}
+
+.enter {
+    margin-bottom: 30px;
+}
+
+.wrapper {
+    position: absolute;
+    background: url(196843.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-roblox {
+    width: 600px;
+    padding-top: 190px;
+    padding-left: 150px;
+}
+
+.contact {
+    z-index: 2;
+}
+
+.contact h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper-contact {
+    line-height: 2.0em;
+    position: absolute;
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(57, 56, 56);
+    border-radius: 10px;
+    z-index: 1;
+    bottom: 20%;
+    right: 9%;
+}
+
+.information {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+.submit {
+    font-size: 20px;
+    font-weight: 800;
+    width: 310px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.device {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    width: 310px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid white;
+    background-color: rgb(57, 56, 56);
+    cursor: pointer;
+}
+
+.help {
+    color: grey;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: 0.6;
+}
+
+.device:hover {
+    opacity: 0.6;
+}
+
+#strong:hover {
+    color: #ddd;
+}

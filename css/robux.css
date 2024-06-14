@@ -1,0 +1,114 @@
+body {
+    background-color: #f5f5f5;
+    width: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.box-main{
+    background: linear-gradient(135deg, #f5f5f5, #ddd);
+    justify-content: center;
+    display:flex;
+}
+
+.box-robux{
+    max-width: 500px;
+}
+.box-price{
+    max-width: 500px;
+}
+h1 {
+    
+    font-size: 32px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+.stick {
+    height: auto;
+    width: 80%;
+}
+
+.limited {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.limited-2 {
+    font-size: 15px;
+    color: grey;
+}
+
+.price {
+    color: grey;
+    font-weight: 100;
+    line-height: 0.4em;
+}
+
+.menu-robux {
+    line-height: 0.2em;
+}
+
+.robux {
+    gap: 2px;
+    background-size: auto auto;
+    display: flex;
+    height: 60px;
+    width: auto;
+    background-color: #393b3d;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon-robux {
+    width: 28px;
+    height: 28px;
+    padding-left: 10px;
+
+}
+
+.robux h2 {
+    margin: 0;
+}
+
+.menu-robux-2 {
+    line-height: 0.2em;
+}
+
+.robux-2 {
+    gap: 2px;
+    background-size: auto auto;
+    display: flex;
+    height: 60px;
+    width: auto;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.icon-robux-2 {
+    width: 28px;
+    height: 28px;
+    padding-left: 10px;
+
+}
+
+.robux-2 h2 {
+    margin: 0;
+}
+
+.menu-robux-2 p {
+    font-size: 10px;
+    font-weight: 500;
+    color: grey;
+}
